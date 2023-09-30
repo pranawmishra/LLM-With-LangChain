@@ -5,7 +5,7 @@ chroma_client = chromadb.Client()
 collections = chroma_client.create_collection(name = "my_collection")
 
 collections.add(
-    documents = ["my name is akshath","my name is not akshath"],
+    documents = ["my name is pranaw","my name is not pranaw"],
     metadatas = [{"source":"my_source"},{"source":"my_source"}],
     ids = ["id1","id2"]
 )
